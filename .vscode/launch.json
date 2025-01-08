@@ -15,8 +15,10 @@
             "name": "Run JUnit Tests",
             "mainClass": "org.junit.platform.console.ConsoleLauncher",
             "args": "--scan-classpath",
-            "cwd": ".",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "classpath": [
+                "/Users/anna/Desktop/Path-Finder/lib/*.jar"
+            ]
         }
     ]
 }

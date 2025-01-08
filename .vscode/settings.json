@@ -3,6 +3,6 @@
     "java.project.outputPath": "out",
     "java.project.referencedLibraries": [
         "/Users/anna/Desktop/Path-Finder/javafx-sdk-20/lib/*.jar",
-        "/Users/anna/Desktop/Path-Finder/lib/*.jar"
+        "/Users/anna/Desktop/Path-Finder/lib/**/*.jar"
     ]
 }
