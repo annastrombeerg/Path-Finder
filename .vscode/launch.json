@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Run PathFinder",
+            "mainClass": "PathFinder",
+            "vmArgs": "--module-path /Users/anna/Desktop/Path-Finder/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml",
+            "cwd": "Path Finder"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Run JUnit Tests",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": "--scan-classpath",
+            "cwd": ".",
+            "console": "integratedTerminal"
+        }
+    ]
+}
